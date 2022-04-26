@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    font: normal 16px 'Roboto', sans-serif; 
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+.avatar { 
+    width: 250px;
+    border-radius: 0%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.151);
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: capitalize; */
+    /* letter-spacing: 5px; */
+     word-spacing: 42px; 
+}
+.contener {
+    max-width: 75%;
+    margin: auto;
+
+
+}
+/* Box Model */
+.social {
+    background: darkorange;
+    /* padding: 15px; */
+    /* padding: 15px 40px; */
+    padding: 15px 20px 25px 30px; 
+    /* padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-left: 30px; */
+    border: 5px solid rgb(255, 196, 68);
+    border-bottom-style:dotted;
+    border-top-width: 15px;
+    border-right-color: darkolivegreen;
+    /* border-right: darkviolet; */
+    margin: 20px;
+
+}
